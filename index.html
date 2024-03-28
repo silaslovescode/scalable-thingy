@@ -15,7 +15,13 @@
     <map name="map">
         <!-- Image map areas go here -->
         <area shape="rect" coords="x1,y1,x2,y2" href="https://example.com">
+    <a-scene>
+    <a-assets>
+       <a-asset-item id="obj" src="/path/to/thingy.obj"></a-asset-item>
+    </a-assets>
 
+    <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
+</a-scene>
     </map>
 </body>
 </html>
